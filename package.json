@@ -1,0 +1,21 @@
+{
+  "name": "movie-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Backend && npm install --prefix Frontend && npm run build --prefix Frontend",
+    "start": "npm start --prefix Backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fares-pr0g/Movie-Lister.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fares-pr0g/Movie-Lister/issues"
+  },
+  "homepage": "https://github.com/Fares-pr0g/Movie-Lister#readme",
+  "description": ""
+}
