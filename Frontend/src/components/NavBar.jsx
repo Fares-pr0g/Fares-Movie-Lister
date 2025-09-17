@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {Link} from 'react-router-dom'
-import "../css/NavBar.css"
+import "../css/Navbar.css"
 import CircularText from '../TextAnimations/CircularText/CircularText.jsx';
 import { getCurrentUser, logoutUser } from '../services/api.js';
 import { FiLogOut } from "react-icons/fi";
