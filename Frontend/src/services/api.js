@@ -1,9 +1,9 @@
 import axios from 'axios';
 axios.defaults.withCredentials = true; // Enable sending cookies with requests
 
-const baseURL= import.meta.env.MODE ==='development' ? "http://localhost:3000/api" : "/api";
+//const baseURL= import.meta.env.MODE ==='development' ? "http://localhost:3000/api" : "/api";
 
-const BASE_URL = baseURL;
+const BASE_URL = "/api"; // Assuming the backend is served from the same origin
 
 // External API calls running through our API
 export const getPopularMovies = async () => {
