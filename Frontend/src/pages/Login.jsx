@@ -11,11 +11,11 @@ const Login = () => {
 
         // Redirect user to backend OAuth routes
     const handleGoogleLogin = () => {
-        window.location.href = "http://localhost:3000/api/auth/google";
+        window.location.href = "/api/auth/google";
     }
 
     const handleGithubLogin = () => {
-        window.location.href = "http://localhost:3000/api/auth/github";
+        window.location.href = "/api/auth/github";
     }
 
   return (
